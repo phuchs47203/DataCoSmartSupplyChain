@@ -1,0 +1,35 @@
+﻿
+ALTER TABLE Fact DROP CONSTRAINT fact_city_fk;
+ALTER TABLE Fact DROP CONSTRAINT fact_country_fk;
+ALTER TABLE Fact DROP CONSTRAINT fact_Customer_fk;
+ALTER TABLE Fact DROP CONSTRAINT fact_date_fk ;
+ALTER TABLE Fact DROP CONSTRAINT fact_region_fk;
+ALTER TABLE Fact DROP CONSTRAINT fact_product_fk;
+ALTER TABLE Fact DROP CONSTRAINT fact_state_fk;
+
+
+
+DELETE FROM Fact;
+DELETE FROM "DIM PRODUCT";
+DELETE FROM "DIM CUSTOMER";
+DELETE FROM "DIM DATE";
+
+DELETE FROM "DIM STATE";
+
+DELETE FROM "DIM CITY";
+
+DELETE FROM "DIM COUNTRY";
+
+DELETE FROM "DIM MARKET";
+
+
+
+  
+alter table Fact 
+add constraint fact_city_fk foreign key("Order City") references "DIM CITY"("Order City"),
+	constraint fact_country_fk foreign key("Order Country") references "DIM COUNTRY"("Order Country"),
+	constraint fact_Customer_fk foreign key("Customer FullName") references "DIM CUSTOMER"("Customer FullName"),
+	constraint fact_date_fk foreign key("Order Date") references "DIM DATE"("Order Date"),
+	constraint fact_region_fk foreign key("Order Region") references "DIM MARKET"("Order Region"),
+	constraint fact_product_fk foreign key("Product Name") references "DIM PRODUCT"("Product Name"),
+	constraint fact_state_fk foreign key("Order State") references "DIM STATE"("Order State");

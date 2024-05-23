@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\21522\\OneDrive\\Desktop\\DW\\ssas2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46DD26BC-3E6D-47E3-8C27-B07130286ECF}|ssas2\\ssas2.dwproj|C:\\Users\\21522\\OneDrive\\Desktop\\DW\\ssas2\\ssas2\\DW Supply Chain.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{46DD26BC-3E6D-47E3-8C27-B07130286ECF}|ssas2\\ssas2.dwproj|solutionrelative:ssas2\\DW Supply Chain.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DW Supply Chain.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\21522\\OneDrive\\Desktop\\DW\\ssas2\\ssas2\\DW Supply Chain.cube",
+              "RelativeDocumentMoniker": "ssas2\\DW Supply Chain.cube",
+              "ToolTip": "C:\\Users\\21522\\OneDrive\\Desktop\\DW\\ssas2\\ssas2\\DW Supply Chain.cube [Design]",
+              "RelativeToolTip": "ssas2\\DW Supply Chain.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-18T07:14:49.328Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
